@@ -40,7 +40,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build MyST book
-        run: myst build --html --base-url /bppm-dem-sm-report/
+        run: myst build --html
+        env:
+          BASE_URL: /bppm-dem-sm-report/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
