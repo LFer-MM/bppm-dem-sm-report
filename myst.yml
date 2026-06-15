@@ -40,6 +40,7 @@ project:
 
 site:
   template: book-theme
+  url: https://lfer-mm.github.io/bppm-dem-sm-report
   options:
     logo_text: "MCD – Universidad de Sonora"
     hide_footer_links: false
@@ -47,4 +48,4 @@ site:
     folders: true
   actions:
     - title: "Repositorio GitHub"
-      url: https://github.com/TU_USUARIO/TU_REPO
+      url: https://github.com/LFer-MM/bppm-dem-sm-report
