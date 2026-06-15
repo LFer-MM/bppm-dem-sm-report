@@ -1,0 +1,50 @@
+version: 1
+
+project:
+  title: "Título del Trabajo Terminal"
+  description: >
+    Trabajo Terminal para la Maestría en Ciencias de Datos,
+    Universidad de Sonora.
+  github: TU_USUARIO/TU_REPO
+
+  toc:
+    - file: index.md
+
+    - title: "Declaración de Logros"
+      children:
+        - file: 01_declaracion_logros/logros.md
+
+    - title: "Resumen Ejecutivo"
+      children:
+        - file: 02_resumen_ejecutivo/contexto.md
+        - file: 02_resumen_ejecutivo/ciclo_ciencia_datos.md
+        - file: 02_resumen_ejecutivo/descripcion_producto.md
+        - file: 02_resumen_ejecutivo/resultados_conclusiones.md
+        - file: 02_resumen_ejecutivo/impacto.md
+
+    - title: "Reporte Técnico"
+      children:
+        - file: 03_reporte_tecnico/01_contexto.ipynb
+        - file: 03_reporte_tecnico/02_analisis_datos_entrada.ipynb
+        - file: 03_reporte_tecnico/03_ingenieria_caracteristicas.ipynb
+        - file: 03_reporte_tecnico/04_modelo_linea_base.ipynb
+        - file: 03_reporte_tecnico/05_configuracion_modelo_propuesto.ipynb
+        - file: 03_reporte_tecnico/06_metodologia_entrenamiento.ipynb
+        - file: 03_reporte_tecnico/07_medicion_desempeno.ipynb
+        - file: 03_reporte_tecnico/08_conclusiones.md
+        - file: 03_reporte_tecnico/09_equipo_trabajo.md
+
+    - title: "Apéndice"
+      children:
+        - file: 04_apendice/documentacion_libreria.md
+
+site:
+  template: book-theme
+  options:
+    logo_text: "MCD – Universidad de Sonora"
+    hide_footer_links: false
+    hide_toc: false
+    folders: true
+  actions:
+    - title: "Repositorio GitHub"
+      url: https://github.com/TU_USUARIO/TU_REPO

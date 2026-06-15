@@ -1,0 +1,7 @@
+myst-nb>=1.0.0
+jupyter-book>=2.0.0
+sphinx-book-theme
+numpy
+pandas
+matplotlib
+scikit-learn
